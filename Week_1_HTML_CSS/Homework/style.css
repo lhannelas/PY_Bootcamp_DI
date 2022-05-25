@@ -1,0 +1,14 @@
+p {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #27C76B;
+    background-color: #C0F7D7;
+    padding: 30px ;
+    width: 300px;
+
+
+}
+

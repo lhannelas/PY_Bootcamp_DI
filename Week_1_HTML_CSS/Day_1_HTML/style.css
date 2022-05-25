@@ -1,0 +1,51 @@
+.profile {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 1%;
+    background-image: url(maddodo.png);
+
+}
+
+.flag {
+    width: 100px;
+    height: 80px;
+    /*border: 1px solid black;*/
+
+}
+
+#red {
+    background-color: red;
+    height: 20px;
+}
+
+#blue {
+    background-color: blue;
+    height: 20px;
+}
+
+#yellow{
+    background-color: yellow;
+    height: 20px;
+}
+
+#green{
+    background-color: green;
+    height: 20px;
+}
+
+.france {
+    width: 120px;
+    height: 80px;
+    border: 1px solid black;
+    margin-top: 50px;
+
+}
+
+#bleu {
+    background-color: blue;
+    height: 30px;
+    display: inline-block
+
+}
