@@ -1,0 +1,42 @@
+.card {
+	height: 200px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: darkgoldenrod;
+	font-size: 20px;
+	color: white;
+	/*margin: 20px;*/
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: ;
+	border: 1px solid black;
+	height: 600px;
+	width: 500px;
+	justify-content: space-around; /*alignment on x-axis*/
+	align-items: flex-start; /*alignment on y-axis and single line*/
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	/*align-content: space-evenly;*/ /*alignment on both x and y axis multiple line*/ /*overrides align-items and align-self*/
+
+}
+
+.container-test {
+	height: 600px;
+	width: 1000px;
+	display: flex;
+	border: 1px solid black;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	/*align-content: space-between;*/
+}
+
+.card-test {
+	border: 1px solid black;
+	height: 200px;
+	width: 1000px;
+	background-color: blue;
+}
+

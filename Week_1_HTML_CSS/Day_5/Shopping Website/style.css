@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar .float_right {
+    float: right;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #555;
+   color: white;
+   text-align: center;
+
+}
+#container {
+    border: 2px solid green;
+    margin: 10px;
+    text-align: center ;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: 15px;
+  text-align: center;
+  font-family: arial;
+  border: 2px solid red;
+  display: inline-block;
+  position: relative;
+
+}
+
+img {
+    width:100%;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  /*color: white;*/
+  /*background-color: #000;*/
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.text-block {
+  position: absolute;
+  top: 10px;
+  left: 3px;
+  background-color: green;
+  color: white;
+  /*padding: 5%;*/
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+
+  /*text-align: center;*/
+  
+}
+
+.text-block p {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  /*text-align: center;*/
+}
