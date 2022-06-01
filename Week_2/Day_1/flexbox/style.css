@@ -24,19 +24,20 @@
 }
 
 .container-test {
-	height: 600px;
+	height: 300px;
 	width: 1000px;
 	display: flex;
 	border: 1px solid black;
-	flex-direction: column;
-	/*justify-content: space-between;*/
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	align-items: center;
 	/*align-content: space-between;*/
 }
 
 .card-test {
 	border: 1px solid black;
-	height: 200px;
-	width: 1000px;
+	height: 100px;
+	width: 200px;
 	background-color: blue;
 }
 
