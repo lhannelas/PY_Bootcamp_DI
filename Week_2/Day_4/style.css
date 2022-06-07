@@ -1,0 +1,53 @@
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+.jumbotron	{
+	background-image: url(workspace-1280538_1280.jpg);
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.jumbotron h1	{
+	font-size: 30px;
+	line-height: 1.5;
+	
+}
+
+.intro	{
+	padding-top: 160px;
+}
+
+.navbar-brand {
+	color: rgba(255, 255, 255, 0.9);
+	margin-left: 200px;
+}
+
+.navbar-brand:hover {
+	font-weight: 600;
+	/*border-bottom: 1px solid white;*/
+	color: white;
+}
+
+.navbar-nav	{
+	margin-right: 200px;
+}
+.navbar-nav a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-link:hover {
+	font-weight: 600;
+	border-bottom: 1px solid white;
+}
+
+.container {
+	margin-right: 60px;
+}
+
+.active a {
+	border-bottom: 1px solid yellow;
+}

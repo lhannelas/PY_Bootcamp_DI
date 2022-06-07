@@ -1,0 +1,25 @@
+.custom-div	{
+	border: 1px solid black;
+	height: 50px;
+
+}
+
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
+
+.card {
+	margin: 15px;
+}
