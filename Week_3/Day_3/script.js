@@ -76,3 +76,19 @@ switch (c) {
 		break;
 
 }
+
+
+let browser = "pokemon";
+
+if (browser === "Edge") {
+	alert ("you've got the Edge!");
+	}
+else if (browser === "Chrome" ||
+				 browser === "Firefox" || 
+				 browser === "Safari" || 
+				 browser === "Opera") {
+	alert ("We support these browers too");
+}
+else {
+	alert ("We hope this page looks ok!");
+}
