@@ -8,7 +8,7 @@ console.log(arr[3]);
 
 // For loops
 
-// starting condition (e.g. i = 0)µ
+// starting condition (e.g. i = 0)
 // condition to be evaluated ( loop until the condition is not longer true)
 // increment (e.g. i += 1, i++)
 
@@ -95,7 +95,7 @@ while (day > 5)
 
 // console.log("thank you");
 
-//
+// Exercise 1
 
 let array = [ 0 , 1 , 2 ,3 ,4, 5 ,6 ,7 ,8 ,9 ,10 ,11 ,12 ,13 ,14 ,15];
 
@@ -108,3 +108,26 @@ for (let i = 0; i <=15 ; i++ ) {
   console.log(i + " is odd");
 }
 }
+
+// Exercise 2
+
+let names = ["john", "sarah", 23, "Rudolf", 34];
+
+for (let name of names) {
+  let name_type = typeof name;
+
+  if ( name_type === "string") {
+    name = name.replace(name.charAt(0), name.charAt(0).toUpperCase());
+    console.log(name);
+  }
+ 
+}
+
+// while (i < names.length) {
+//   character = names.charAt(0);
+//   if (character == character.toLowerCase()) {
+//     console.log(names.charAt(0).toLowerCase() + names.slice(1));
+//   }
+// }
+
+

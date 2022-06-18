@@ -1,0 +1,8 @@
+.yellowBox {
+height : 100px;
+width : 100px;
+new_div.style.border = '1px solid black';
+new_div.style.borderRadius = '5px';
+new_div.style.margin = '5px';
+new_div.style.backgroundColor = 'yellow';
+}
