@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    <a href={{ url_for('loginPage') }}>login</a>
+    <a href={{ url_for('index', name="bob") }}>index</a>
+    <a href={{ url_for('registerPage') }}>register</a>
+
+
+
+</body>
+</html>

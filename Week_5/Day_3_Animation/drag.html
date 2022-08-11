@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and drop</title>
+  <style>
+    div{
+      border: 1px solid black;
+      width: 200px;
+      height: 100px;
+      margin: 10px;
+
+    }
+
+    img { height: 100px;
+          width: 200px;
+        }
+
+  </style>
+</head>
+<body>
+  
+  <h1>Drag and Drop</h1>
+
+  <div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)" >
+    <img id="img1" src="https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cat" height="100" draggable="true" ondragstart="drag(event)">
+
+  </div>
+  <div id="div2" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+
+  <script>
+    function drag(ev) {
+      ev.dataTransfer.setData("text", ev.target.id);
+    }
+
+    function allowDrop(ev){
+      ev.preventDefault()
+    }
+
+    function drop(ev){
+      ev.preventDefault();
+      let data_id = ev.dataTransfer.getData("text");
+      ev.target.appendChild(document.getElementById(data_id));
+    }
+
+  </script>
+</body>
+</html>

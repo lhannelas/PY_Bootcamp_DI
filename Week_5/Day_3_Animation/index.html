@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+  <style>
+    #outer{
+      height: 400px;
+      width: 400px;
+      background-color: green;
+      position: relative;
+
+    }
+
+    #inner{
+      width: 50px;
+      height: 50px;
+      background-color: goldenrod;
+      position: absolute;
+      
+    }
+
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Animations</h1>
+
+  <button type="button" onclick="set_timeout()">Set Timeout</button>
+
+  <button type="button" onclick="clear_timeout()">Clear Timeout</button>
+
+  <button type="button" onclick="set_interval()">Set interval</button>
+
+  <button type="button" onclick="clear_interval()">Clear interval</button>
+
+  <button type="button" onclick="move_it()">Move the box</button>
+
+  <div id="outer">
+    <div id="inner">
+
+    </div>
+
+
+  </div>
+  
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>

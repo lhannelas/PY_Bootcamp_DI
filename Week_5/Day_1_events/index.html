@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dom Events</title>
+</head>
+<body>
+  <h1>DOM Events</h1>
+
+
+  <button type="button" name="button" id="btn-1" onclick="button_click();">button 1</button>
+
+  <div id="div1">
+    <button type="button" name="button" id="btn-2">button 2</button>
+  </div>
+
+  <button type="button" name="button" id="btn-3">create profile</button>
+
+  <button type="button" name="button" id="btn-4" onclick="alert(this.innerText);">create alert</button>
+
+  <table id="sampleTable" border="1"> 
+    <tr>
+        <td>Row1 cell1</td> 
+        <td>Row1 cell2</td>
+    </tr> 
+    <tr>
+        <td>Row2 cell1</td> 
+        <td>Row2 cell2</td>
+    </tr> 
+    </table>
+    
+    <input type="button" id="row" onclick="insertRow()" value="Insert row">  
+
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>

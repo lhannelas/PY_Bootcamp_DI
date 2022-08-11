@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>articles</title>
+</head>
+<body>
+    {% for key in articles%}
+    <p>list of articles: {{key}} => {{articles[key]}}</p>
+    {% endfor %}
+</body>
+</html>
